@@ -2,6 +2,10 @@
   text-align: center;
 }
 
-.Background {
-  background-color: rgb(229, 232, 238);
+.FillWindow {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
 }

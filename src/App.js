@@ -1,13 +1,13 @@
 import React from 'react';
 import styles from './App.module.css';
-import Login from './Login/Login'
+import LoginCard from './LoginCard/LoginCard'
 import Layout from './Layout/Layout'
 
 function App() {
   return (
-    <div className={styles.Background}>
+    <div>
       <Layout>
-        <Login />
+        <LoginCard />
       </Layout>
     </div>
   );
