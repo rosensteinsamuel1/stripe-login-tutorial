@@ -1,0 +1,12 @@
+.Header {
+    text-align: center;
+    color: rgb(77,77,112);
+    font-family: 'Kanit', sans-serif
+}
+
+.HeaderWraper {
+    height: 180px;
+    margin: 0 auto;
+    padding-top: 90px;
+    width: 330px;
+}

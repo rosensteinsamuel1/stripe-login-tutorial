@@ -4,6 +4,14 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './fonts/absolut_pro_bold_reduced.ttf'
+import WebFont from 'webfontloader';
+
+WebFont.load({
+  google: {
+    families: ['Kanit', 'sans-serif']
+  }
+});
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

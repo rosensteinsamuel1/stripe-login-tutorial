@@ -2,10 +2,8 @@
   text-align: center;
 }
 
-.FillWindow {
-  height: 100%;
-  position: absolute;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
+.wrap {
+  background-color: yellow;
+  position: relative;
+  min-height: 100%;
 }

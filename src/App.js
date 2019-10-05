@@ -5,7 +5,7 @@ import Layout from './Layout/Layout'
 
 function App() {
   return (
-    <div>
+    <div className={styles.wrap}>
       <Layout>
         <LoginCard />
       </Layout>

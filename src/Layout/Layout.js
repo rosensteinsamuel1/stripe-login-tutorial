@@ -8,7 +8,7 @@ class Layout extends Component {
     render() {
         return (
             <body>
-                <div className={styles.Background}>
+                <div className={styles.wrap}>
                     <Header />
                     <main>
                         {this.props.children}
